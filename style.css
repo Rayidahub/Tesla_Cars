@@ -1,0 +1,148 @@
+@font-face {
+    font-family: myfont;
+    src: url(./tesla/TESLA.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background: rgb(204, 204, 204);
+    margin: 10px;
+     text-align: center;
+    padding: 3px;
+    display: block;
+    justify-content: center;
+    padding: 20px; 
+}
+.main{
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+
+    
+}
+.image{
+    
+    border-radius: 20px 20px 0px 0px;
+    background: url("./wp4684482.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 910px;
+    
+    margin-bottom: 20px;
+}
+.image h1{
+    font-family: myfont;
+    position: relative;
+    color: white;
+    background-color: rgba(79, 26, 129, 0.726);
+    margin: 20px;
+    width: fit-content;
+    top: 200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px 5px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+}
+.image h4{
+    font-family: myfont;
+    position: relative;
+    color: white;
+    background-color: rgba(79, 26, 129, 0.541);
+    margin: 20px;
+    text-shadow: 0px 0px 1pc black;
+    width: fit-content;
+    top: 200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+h1{
+    font-family: TESLA;
+    color: rgb(0, 0, 48);
+}
+
+/* .content{
+    display: flex;
+    background-color: rgba(240, 251, 255, 0.829);
+    color: rgb(0, 0, 0);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+} */
+.one{
+   height: 400px;
+    width: 310px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: rgb(2, 2, 2);
+    box-shadow: 0px 0px 10px rgb(247, 0, 0);
+    
+}
+.one h3{
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 25px;
+    text-shadow: 0pc 0pc 2px black;
+}
+.one p{
+    text-shadow: 0pc 0pc 2px black;
+    font-size: 13px
+}
+.one img{
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgba(79, 26, 129, 0.726);
+}
+.profile{
+    
+    margin: 35px auto;
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(147, 202, 209);
+    border-bottom: 8px solid rgb(82, 21, 97);
+    box-shadow: 0px 0px 10px rgb(47, 0, 255);
+}
+img{
+    height: 250px;
+}
+h1{
+    font-family: Aharoni;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.content2 {
+padding: 20px;
+margin: px;
+
+width: 350px;
+}
+.content2 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 1px rgb(19, 3, 85);
+    margin: 10px;
+    color: rgb(64, 2, 70);
+    text-align: justify;
+}
+
+
+
+
